@@ -95,7 +95,7 @@ class Login extends JFrame implements ActionListener
 		}
 		catch(SQLException se)
 		{
-			JOptionPane.showMessageDialog(this, "Sorry, unable to connect to database !!");
+			JOptionPane.showMessageDialog(this, "Sorry, unable to connect to databasen to our database !!");
 			dispose();
 		}
 		
